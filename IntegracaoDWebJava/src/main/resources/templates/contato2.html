@@ -1,0 +1,43 @@
+<html xmlns:th="http://www.thymeleaf.org">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <link href="/logo.ico" rel="shortcut icon">
+        <title>Pizzaria Seu Pizza</title>
+        <meta charset="UTF-8">
+    </head>
+    <body>
+        
+        <header>
+            <div class="logo_caixa">
+                <img src="/logo.png" title="Logo" class="logo">
+                <nav>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="cardapio.html">Cardápio</a></li>
+                        <li><a href="contato.html">Contato</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+        
+        <main>
+            <h1>Obrigado por ter entrado em contato!</h1>
+            <div>
+                <h2 th:text="${mensagem3}"></h2>
+            </div>
+            
+            <p>
+                Entraremos em contato assim que possível, fique atento!
+            </p>
+            
+            <a href="contato.html">Enviar outro formulário</a>
+        </main>
+        
+        <footer>
+            <img src="/logo.png" alt="Seu Pizza" class="logo_footer">
+            <p class="copyright">&copy; Todos os direitos reservados para a Seu Pizza</p>
+        </footer>
+    </body>
+</html>

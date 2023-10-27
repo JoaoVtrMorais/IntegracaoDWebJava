@@ -24,7 +24,7 @@ public class ConectaMongoDB {
         System.out.println("getValues ok");
     }
 
-    public void insertValues(String nome_completo, String email, int telefone, String mensagem,
+    public void insertValues(String nome_completo, String email, String telefone, String mensagem,
                              String contato_escolhido, String motivo_contato, boolean receber_novidades) {
         System.out.println("insertValues");
         String uri = "mongodb://localhost";
