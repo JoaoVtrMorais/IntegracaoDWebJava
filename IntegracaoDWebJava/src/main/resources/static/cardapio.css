@@ -1,0 +1,66 @@
+body {
+    font-family: 'Arial';
+}
+
+.titulo__cardapio {
+    color: red;
+    text-transform: uppercase;
+    margin-left: 1em;
+}
+
+p {
+    text-align: center;
+    margin: 2em;
+}
+
+.opcoes {
+    margin: 5em 0 7em 0;
+}
+
+.opcoes__lista {
+    display: flex;
+    justify-content: center;
+    gap: 3em;
+}
+
+ul {
+    list-style-type: none;
+    gap: 2em;
+}
+
+.opcoes__lista li {
+    border: .2em solid #FFBB00;
+    border-radius: .5em;
+    display: flex;
+    flex-direction: column;
+    height: 430px;
+    width: 400;
+    padding: 1em;
+    transition: all 0.3s;
+    cursor: pointer;
+}
+
+.opcoes__lista li:hover {
+    -webkit-transform: scale(1);
+    transform: scale(1.05);
+    box-shadow: 0 0 0 1.5px rgba(0, 0, 0, 0.7);
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 2.5em;
+}
+
+img {
+    width: 35%;
+    align-self: center;
+    margin-bottom: 1em;
+}
+
+.opcoes__descricao {
+    margin-bottom: 2em;
+}
+
+.opcoes__valor {
+    font-weight: bold;
+}
